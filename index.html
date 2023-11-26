@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="shopify.com">
+        <img
+          src="https://crushingit.tech/hackathon-assets/shopify-icon-desktop.svg"
+          alt="shopify logo"
+        />
+      </a>
+      <label for="search">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 13 14"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.82264 10.3833C7.89957 11.0841 6.74835 11.5 5.5 11.5C2.46243 11.5 0 9.03757 0 6C0 2.96243 2.46243 0.5 5.5 0.5C8.53757 0.5 11 2.96243 11 6C11 7.24835 10.5841 8.39957 9.8833 9.32264L12.7803 12.2197C13.0732 12.5126 13.0732 12.9874 12.7803 13.2803C12.4874 13.5732 12.0126 13.5732 11.7197 13.2803L8.82264 10.3833ZM9.5 6C9.5 8.20914 7.70914 10 5.5 10C3.29086 10 1.5 8.20914 1.5 6C1.5 3.79086 3.29086 2 5.5 2C7.70914 2 9.5 3.79086 9.5 6Z"
+            fill="#b5b5b5"
+          />
+        </svg>
+        <input type="text" name="search" id="search" placeholder="Search" />
+      </label>
+      <div class="profile">
+        <svg
+          width="41"
+          height="40"
+          viewBox="0 0 21 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.75203 14.4239L5.3061 14.1427C3.45144 13.9295 2.92542 11.4844 4.52838 10.5274L4.5933 10.4886C5.466 9.96761 6.00045 9.02609 6.00045 8.00969V7.5C6.00045 5.01472 8.01517 3 10.5005 3C12.9857 3 15.0005 5.01472 15.0005 7.5V8.00969C15.0005 9.02609 15.5349 9.96761 16.4076 10.4886L16.4725 10.5274C18.0755 11.4844 17.5495 13.9295 15.6948 14.1427L13.152 14.435V14.8C13.152 16.2912 11.9432 17.5 10.452 17.5C8.96086 17.5 7.75203 16.2912 7.75203 14.8V14.4239ZM11.652 14.5H9.25203V14.8C9.25203 15.4627 9.78929 16 10.452 16C11.1148 16 11.652 15.4627 11.652 14.8V14.5ZM8.50045 13H12.5005L15.5235 12.6525C15.953 12.6032 16.0748 12.0369 15.7036 11.8153L15.6387 11.7766C15.5591 11.7291 15.4815 11.6793 15.4057 11.6273C15.2506 11.521 15.1036 11.4055 14.9651 11.2818C14.9405 11.2598 14.9162 11.2377 14.8922 11.2152C14.0144 10.395 13.5005 9.23833 13.5005 8.00969V7.5C13.5005 5.84315 12.1573 4.5 10.5005 4.5C8.8436 4.5 7.50045 5.84315 7.50045 7.5V8.00969C7.50045 9.23833 6.98651 10.395 6.10871 11.2152C6.08469 11.2377 6.06039 11.2598 6.03583 11.2818C5.89734 11.4055 5.75029 11.521 5.59523 11.6273C5.51945 11.6793 5.44176 11.7291 5.36222 11.7766L5.29729 11.8153C4.9261 12.0369 5.0479 12.6032 5.47739 12.6525L8.50045 13Z"
+            fill="#fff"
+          />
+        </svg>
+
+        <div class="profile_details">
+          <p>Davii Collections</p>
+          <p class="initials">DC</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropdown_profile">
+          <div class="dropdown_profile_details">
+            <p class="initials">DC</p>
+            <p>Davii Collections</p>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              d="M13.3332 4L5.99984 11.3333L2.6665 8"
+              stroke="#303030"
+              stroke-width="1.33333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <a class="stores" href="admin.shopify.com">
+          <img
+            src="https://crushingit.tech/hackathon-assets/icon-store.svg"
+            alt="store icon"
+          />
+          All stores
+        </a>
+        <ul>
+          <li>
+            <a href="admin.shopify.com"> Help Center </a>
+          </li>
+          <li>
+            <a href="admin.shopify.com"> Changelog </a>
+          </li>
+          <li>
+            <a href="admin.shopify.com"> Community Forums </a>
+          </li>
+          <li>
+            <a href="admin.shopify.com"> Hire a Shopify Partner </a>
+          </li>
+          <li>
+            <a href="admin.shopify.com"> Keyboard shortcuts </a>
+          </li>
+        </ul>
+        <ul>
+          <li class="david">
+            <a href="admin.shopify.com"
+              >David Micheal <small>davidmicheal@gmail.com</small></a
+            >
+          </li>
+          <li><a href="admin.shopify.com">Manage account</a></li>
+          <li><a href="admin.shopify.com">Log out</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <div class="alert">
+        <p>Extend your trial for $1/month for 3 months on select plans.</p>
+        <div class="plan">
+          <a href="shopify.com/pricing">Select a plan</a>
+          <svg
+            class="cancel"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M13.9697 15.0303C14.2626 15.3232 14.7374 15.3232 15.0303 15.0303C15.3232 14.7374 15.3232 14.2626 15.0303 13.9697L11.0607 10L15.0303 6.03033C15.3232 5.73744 15.3232 5.26256 15.0303 4.96967C14.7374 4.67678 14.2626 4.67678 13.9697 4.96967L10 8.93934L6.03033 4.96967C5.73744 4.67678 5.26256 4.67678 4.96967 4.96967C4.67678 5.26256 4.67678 5.73744 4.96967 6.03033L8.93934 10L4.96967 13.9697C4.67678 14.2626 4.67678 14.7374 4.96967 15.0303C5.26256 15.3232 5.73744 15.3232 6.03033 15.0303L10 11.0607L13.9697 15.0303Z"
+              fill="#E3E3E3"
+            />
+          </svg>
+        </div>
+      </div>
+      <section class="panel">
+        <div class="panel_head">
+          <div class="panel_head_detail">
+            <h1>Setup guide</h1>
+            <p>Use this personalized guide to get your store up and running.</p>
+            <div class="progress">
+              <p id="progressText">1 / 5 completed</p>
+              <p class="bar" id="progressBar">
+                <span id="indicator"></span>
+              </p>
+            </div>
+          </div>
+          <img
+            class="arrow"
+            src="https://crushingit.tech/hackathon-assets/icon-arrow-down.svg"
+            alt="arrow icon"
+          />
+        </div>
+        <div class="panel_body">
+          <div class="panel_capsule" data-active="true">
+            <div class="panel_capsule_details">
+              <div class="svg-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="dotted"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r="12"
+                    stroke="#b5b5b5"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-dasharray="4 6"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="filled"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#8A8A8A"
+                    stroke-width="2.08333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 28 28"
+                  class="half"
+                  fill="none"
+                >
+                  <path
+                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                    stroke="#000"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="checked"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                  <path
+                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div class="panel_capsule_detail">
+                <h2>Customize your online store</h2>
+                <div class="hide">
+                  <p>
+                    Choose a theme and add your logo, colors, and images to
+                    reflect your brand.
+                    <span
+                      ><a href="https://help.shopify.com/en/manual/domains">
+                        Learn more</a
+                      >
+                    </span>
+                  </p>
+                </div>
+                <button class="hide">Customize theme</button>
+              </div>
+            </div>
+            <img
+              class="hide"
+              src="https://crushingit.tech/hackathon-assets/customise-store.png"
+              alt="an image that illustrate choosing theme, logos, colors and images"
+            />
+          </div>
+          <div class="panel_capsule" data-active="false">
+            <div class="panel_capsule_details">
+              <div class="svg-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="dotted"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r="12"
+                    stroke="#b5b5b5"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-dasharray="4 6"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="filled"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#8A8A8A"
+                    stroke-width="2.08333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 28 28"
+                  class="half"
+                  fill="none"
+                >
+                  <path
+                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                    stroke="#000"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="checked"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                  <path
+                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div class="panel_capsule_detail">
+                <h2>Add your first product</h2>
+                <div class="hide">
+                  <p>
+                    Write a description, add photos, and set pricing for the
+                    products you plan to sell.
+                    <span
+                      ><a href="https://help.shopify.com/en/manual/domains">
+                        Learn more</a
+                      >
+                    </span>
+                  </p>
+                </div>
+                <div class="button hide">
+                  <button>Add products</button>
+                  <button class="neutral">Import products</button>
+                </div>
+              </div>
+            </div>
+            <img
+              class="hide"
+              src="https://crushingit.tech/hackathon-assets/product.png"
+              alt="an image that shows a cloth, eyeglass and a shoe"
+            />
+          </div>
+          <div class="panel_capsule" data-active="false">
+            <div class="panel_capsule_details">
+              <div class="svg-container">
+                <div class="svg-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="filled"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="#8A8A8A"
+                      stroke-width="2.08333"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="dotted"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="12"
+                      stroke="#b5b5b5"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-dasharray="4 6"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 28 28"
+                    class="half"
+                    fill="none"
+                  >
+                    <path
+                      d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                      stroke="#000"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="checked"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                    <path
+                      d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                      fill="#fff"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="panel_capsule_detail">
+                <h2>Add a custom domain</h2>
+                <div class="hide">
+                  <p>
+                    Your current domain is 222219.myshopify.com but you can add
+                    a custom domain to help customers find your online store.
+                    <span
+                      ><a href="https://help.shopify.com/en/manual/domains">
+                        Learn more</a
+                      >
+                    </span>
+                  </p>
+                </div>
+                <button class="hide">Add domain</button>
+              </div>
+            </div>
+            <img
+              class="hide"
+              src="https://crushingit.tech/hackathon-assets/website.png"
+              alt="an image that illustrate a website"
+            />
+          </div>
+          <div class="panel_capsule" data-active="false">
+            <div class="panel_capsule_details">
+              <div class="svg-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="dotted"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r="12"
+                    stroke="#b5b5b5"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-dasharray="4 6"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="filled"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#8A8A8A"
+                    stroke-width="2.08333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 28 28"
+                  class="half"
+                  fill="none"
+                >
+                  <path
+                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                    stroke="#000"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="checked"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                  <path
+                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div class="panel_capsule_detail">
+                <h2>Name your store</h2>
+                <div class="hide">
+                  <p>
+                    Your temporary store name is currently Davii collections.
+                    The store name appears in your admin and your online store.
+                    <span
+                      ><a href="https://help.shopify.com/en/manual/domains">
+                        Learn more</a
+                      >
+                    </span>
+                  </p>
+                </div>
+                <button class="hide">Name store</button>
+              </div>
+            </div>
+            <img
+              class="hide"
+              src="https://crushingit.tech/hackathon-assets/name-store.png"
+              alt="an image that illustrate naming a store"
+            />
+          </div>
+          <div class="panel_capsule" data-active="false">
+            <div class="panel_capsule_details">
+              <div class="svg-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="dotted"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                >
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r="12"
+                    stroke="#b5b5b5"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-dasharray="4 6"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="filled"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#8A8A8A"
+                    stroke-width="2.08333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 28 28"
+                  class="half"
+                  fill="none"
+                >
+                  <path
+                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                    stroke="#000"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="checked"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                  <path
+                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div class="panel_capsule_detail">
+                <h2>Set up a payment provider</h2>
+                <div class="hide">
+                  <p>
+                    Choose a payment provider to start accepting payments.
+                    You’ll need to create an account with the payment provider
+                    and set it up with your Shopify store.
+                    <span
+                      ><a href="https://help.shopify.com/en/manual/domains">
+                        Learn more</a
+                      >
+                    </span>
+                  </p>
+                </div>
+                <button class="hide">Set up payment</button>
+              </div>
+            </div>
+            <img
+              class="hide"
+              src="https://crushingit.tech/hackathon-assets/payment.png"
+              alt="an image that illustrate setting up payment"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
